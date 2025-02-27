@@ -1,0 +1,9 @@
+declare module '*.png';
+declare module '*.svg';
+declare module '*.gif';
+declare module '*.jpeg';
+declare module '*.webp';
+declare module '*.jpg';
+declare module '@heroicons/*';
+declare module 'react-google-recaptcha';
+declare module 'lodash.debounce';
