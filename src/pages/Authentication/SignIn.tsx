@@ -8,6 +8,7 @@ import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link, useNavigate } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
+import LoginImg from '../../images/brand/secure_login.gif';
 
 // Import des fonctionnalités nécessaires
 import { login } from '@/api/auth';
@@ -65,7 +66,7 @@ const SignIn: React.FC = () => {
 
       <Card className="flex w-full max-w-5xl overflow-hidden border shadow-lg md:flex-row">
         <div className="hidden w-full md:block md:w-1/2 flex items-center justify-center">
-          <img src="/src/images/brand/secure_login.gif" alt="Secure Login" className="w-auto" />
+          <img src={LoginImg} alt="Secure Login" className="w-auto" />
         </div>
 
         <div className="w-full p-6 md:w-1/2">
